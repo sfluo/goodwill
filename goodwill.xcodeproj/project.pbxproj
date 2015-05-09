@@ -14,6 +14,16 @@
 		B8D188381AFE9E7A003E5DBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D188371AFE9E7A003E5DBE /* Images.xcassets */; };
 		B8D1883B1AFE9E7A003E5DBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8D188391AFE9E7A003E5DBE /* LaunchScreen.xib */; };
 		B8D188471AFE9E7A003E5DBE /* goodwillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D188461AFE9E7A003E5DBE /* goodwillTests.m */; };
+		B8D188521AFE9EE7003E5DBE /* LoginSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D188511AFE9EE7003E5DBE /* LoginSegue.m */; };
+		B8D188551AFEA721003E5DBE /* NearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D188541AFEA721003E5DBE /* NearbyViewController.m */; };
+		B8D188581AFEA730003E5DBE /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D188571AFEA730003E5DBE /* ShareViewController.m */; };
+		B8D1885B1AFEA73D003E5DBE /* LabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1885A1AFEA73D003E5DBE /* LabViewController.m */; };
+		B8D1885E1AFEA74B003E5DBE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1885D1AFEA74B003E5DBE /* ProfileViewController.m */; };
+		B8D188601AFEA907003E5DBE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D1885F1AFEA907003E5DBE /* MapKit.framework */; };
+		B8D188621AFEA90E003E5DBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D188611AFEA90E003E5DBE /* UIKit.framework */; };
+		B8D188641AFEA917003E5DBE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D188631AFEA917003E5DBE /* CoreFoundation.framework */; };
+		B8D188661AFEA9B1003E5DBE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D188651AFEA9B1003E5DBE /* HealthKit.framework */; };
+		B8D1886A1AFEAE95003E5DBE /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D188691AFEAE95003E5DBE /* MoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,23 @@
 		B8D188401AFE9E7A003E5DBE /* goodwillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goodwillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D188451AFE9E7A003E5DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8D188461AFE9E7A003E5DBE /* goodwillTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goodwillTests.m; sourceTree = "<group>"; };
+		B8D188501AFE9EE7003E5DBE /* LoginSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSegue.h; sourceTree = "<group>"; };
+		B8D188511AFE9EE7003E5DBE /* LoginSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSegue.m; sourceTree = "<group>"; };
+		B8D188531AFEA721003E5DBE /* NearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyViewController.h; sourceTree = "<group>"; };
+		B8D188541AFEA721003E5DBE /* NearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyViewController.m; sourceTree = "<group>"; };
+		B8D188561AFEA730003E5DBE /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		B8D188571AFEA730003E5DBE /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		B8D188591AFEA73D003E5DBE /* LabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabViewController.h; sourceTree = "<group>"; };
+		B8D1885A1AFEA73D003E5DBE /* LabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabViewController.m; sourceTree = "<group>"; };
+		B8D1885C1AFEA74B003E5DBE /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		B8D1885D1AFEA74B003E5DBE /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		B8D1885F1AFEA907003E5DBE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B8D188611AFEA90E003E5DBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8D188631AFEA917003E5DBE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B8D188651AFEA9B1003E5DBE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		B8D188671AFEA9B1003E5DBE /* goodwill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = goodwill.entitlements; sourceTree = "<group>"; };
+		B8D188681AFEAE95003E5DBE /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		B8D188691AFEAE95003E5DBE /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D188641AFEA917003E5DBE /* CoreFoundation.framework in Frameworks */,
+				B8D188661AFEA9B1003E5DBE /* HealthKit.framework in Frameworks */,
+				B8D188621AFEA90E003E5DBE /* UIKit.framework in Frameworks */,
+				B8D188601AFEA907003E5DBE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,10 @@
 		B8D1881E1AFE9E7A003E5DBE = {
 			isa = PBXGroup;
 			children = (
+				B8D188651AFEA9B1003E5DBE /* HealthKit.framework */,
+				B8D188631AFEA917003E5DBE /* CoreFoundation.framework */,
+				B8D188611AFEA90E003E5DBE /* UIKit.framework */,
+				B8D1885F1AFEA907003E5DBE /* MapKit.framework */,
 				B8D188291AFE9E7A003E5DBE /* goodwill */,
 				B8D188431AFE9E7A003E5DBE /* goodwillTests */,
 				B8D188281AFE9E7A003E5DBE /* Products */,
@@ -81,11 +116,24 @@
 		B8D188291AFE9E7A003E5DBE /* goodwill */ = {
 			isa = PBXGroup;
 			children = (
+				B8D188671AFEA9B1003E5DBE /* goodwill.entitlements */,
 				B8D1882E1AFE9E7A003E5DBE /* AppDelegate.h */,
 				B8D1882F1AFE9E7A003E5DBE /* AppDelegate.m */,
 				B8D188311AFE9E7A003E5DBE /* ViewController.h */,
 				B8D188321AFE9E7A003E5DBE /* ViewController.m */,
 				B8D188341AFE9E7A003E5DBE /* Main.storyboard */,
+				B8D188681AFEAE95003E5DBE /* MoreViewController.h */,
+				B8D188691AFEAE95003E5DBE /* MoreViewController.m */,
+				B8D188531AFEA721003E5DBE /* NearbyViewController.h */,
+				B8D188541AFEA721003E5DBE /* NearbyViewController.m */,
+				B8D188561AFEA730003E5DBE /* ShareViewController.h */,
+				B8D188571AFEA730003E5DBE /* ShareViewController.m */,
+				B8D188591AFEA73D003E5DBE /* LabViewController.h */,
+				B8D1885A1AFEA73D003E5DBE /* LabViewController.m */,
+				B8D1885C1AFEA74B003E5DBE /* ProfileViewController.h */,
+				B8D1885D1AFEA74B003E5DBE /* ProfileViewController.m */,
+				B8D188501AFE9EE7003E5DBE /* LoginSegue.h */,
+				B8D188511AFE9EE7003E5DBE /* LoginSegue.m */,
 				B8D188371AFE9E7A003E5DBE /* Images.xcassets */,
 				B8D188391AFE9E7A003E5DBE /* LaunchScreen.xib */,
 				B8D1882A1AFE9E7A003E5DBE /* Supporting Files */,
@@ -168,6 +216,12 @@
 				TargetAttributes = {
 					B8D188261AFE9E7A003E5DBE = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3EDXTC3MQ7;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					B8D1883F1AFE9E7A003E5DBE = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -219,8 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D1885B1AFEA73D003E5DBE /* LabViewController.m in Sources */,
 				B8D188331AFE9E7A003E5DBE /* ViewController.m in Sources */,
+				B8D1885E1AFEA74B003E5DBE /* ProfileViewController.m in Sources */,
+				B8D188551AFEA721003E5DBE /* NearbyViewController.m in Sources */,
+				B8D1886A1AFEAE95003E5DBE /* MoreViewController.m in Sources */,
+				B8D188521AFE9EE7003E5DBE /* LoginSegue.m in Sources */,
 				B8D188301AFE9E7A003E5DBE /* AppDelegate.m in Sources */,
+				B8D188581AFEA730003E5DBE /* ShareViewController.m in Sources */,
 				B8D1882D1AFE9E7A003E5DBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +407,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = goodwill/goodwill.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = goodwill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +421,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = goodwill/goodwill.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = goodwill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
